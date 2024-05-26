@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: xxx-large;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-toggle button {
+    background: #4657da;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin: 0 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+}
+
+.form-toggle button:hover {
+    background: #20b3ba;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-toggle button.active {
+    font-weight: bold;
+    background: #20b3ba;
+    border-bottom: 2px solid #4657da;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+input, input:valid {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #20b3ba;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background: #4657da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    font-weight: bold;
+    background: #20b3ba;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#error-message {
+    color: red;
+    font-size: 18px;
+    text-align: left;
+}
+
+h2 i {
+    color: #4657da;
+}
