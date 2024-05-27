@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background-image: url('restaurant-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title{
+    position:fixed;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-top: -510px;
+    font-family: "Aleo", serif;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.container {
+    background: rgba(8, 1, 1, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(232, 216, 216, 0.288);
+    width: 80%;
+    max-width: 800px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-toggle button {
+    background: #641b08;
+    color: #ead5ce;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin: 0 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-toggle button:hover {
+    color:	#210300;
+    background: #cf7452;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(204, 184, 184, 0.425);
+}
+
+.form-toggle button.active {
+    color:	#210300;
+    font-weight: bold;
+    background: #cf7452;
+    border-bottom: 2px solid #641b08;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+input, input:valid {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #cf7452;
+    border-radius: 5px;
+    background-color: #ead5ce;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background: #641b08;
+    color: #ead5ce;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    font-weight: bold;
+    color:#210300;
+    background: #cf7452;
+    box-shadow: 0 0 20px rgba(204, 184, 184, 0.425);}
+
+#error-message, #signup-error-message {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bottom{
+    position:fixed;
+    margin-top: 600px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.737);
+    width: 100%;
+    display: flexbox;
+    padding:1%;
+    text-align: center;
+    font-family: "Aleo", serif;
+    font-size: large;
+}
+
+h2 {
+    text-align: left;
+    gap: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 i {
+    color: #cf7452;
+}
+
+

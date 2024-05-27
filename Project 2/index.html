@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Login and Signup</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <div class="title">
+        <span>Papa's Pizzeria</span>
+      </div>
+      <div class="container">
+        <div class="form-container">
+          <div class="form-toggle">
+            <button id="login-toggle" class="active">Login</button>
+            <button id="signup-toggle">Signup</button>
+          </div>
+          <form id="login-form">
+            <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+            <div class="input-group">
+              <label for="login-email">Email</label>
+              <input type="email" id="login-email" required />
+            </div>
+            <div class="input-group">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" required />
+            </div>
+            <button type="submit">Login</button>
+            <div id="login-error-message"></div>
+          </form>
+          <form id="signup-form" style="display: none">
+            <h2><i class="fas fa-user-plus"></i> Signup</h2>
+            <div class="input-group">
+              <label for="signup-username">Username</label>
+              <input type="text" id="signup-username" required />
+            </div>
+            <div class="input-group">
+              <label for="signup-email">Email</label>
+              <input type="email" id="signup-email" required />
+            </div>
+            <div class="input-group">
+              <label for="signup-password">Password</label>
+              <input type="password" id="signup-password" required />
+            </div>
+            <div class="input-group">
+              <label for="signup-confirm-password">Confirm Password</label>
+              <input type="password" id="signup-confirm-password" required />
+            </div>
+            <button type="submit">Signup</button>
+            <div id="signup-error-message"></div>
+          </form>
+        </div>
+      </div>
+      <div class="bottom">
+        <span>&copy;Aakruti's Web 2024</span>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
