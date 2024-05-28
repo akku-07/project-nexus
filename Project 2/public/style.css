@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+display: block;
+font-weight: bold;
+font-size: large;
+margin-bottom: 5px;
+}
+
+::placeholder{
+color:#641a08ad;
+font-size: small;
+font-family: monospace;
+}
+
+.form-group input {
+width: 95%;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 3px;
+padding: 10px;
+border: 1px solid #cf7452;
+border-radius: 5px;
+background-color: #ead5ce;
+}
+
+.submit-btn {
+width: 20%;
+padding: 10px;
+background-color: #472dbb;
+text-align: center;
+align-items: center;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+button[type="submit"] {
+padding: 10px;
+background: #641b08;
+color: #ead5ce;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+font-weight: bold;
+color:#210300;
+background: #cf7452;
+box-shadow: 0 0 20px rgba(204, 184, 184, 0.425);}
+
+p {
+margin-top: 15px;
+font-size: large;
+}
+
+a{
+color: white ;
+font-style: italic;
+}
+
+.form-container {
+background:  #210300a8;
+color: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(232, 216, 216, 0.288);
+width: 80%;
+max-width: 800px;
+}
+
+.background {
+background-image: url('/restaurant-bg.jpg');
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+span.heading{
+font-size: xx-large;
+font-weight: bold;
+padding-bottom: 23px;
+
+}
+
+form{
+margin: 20px 0;
+}
+
+i{
+color:#cf7452;
+}
+
+h1{
+    color:white;
+    font-size: 100px;
+    font-family: 'Aleo';
+    font-style: italic;
+    background-color: #210300a8;
+    padding: 1%;
+    
+}
+
+.page-heading{
+    position: fixed;
+    color: white;
+    font-family: 'Aleo';
+    font-size: 70px;
+    font-style: italic;
+    margin-top: -510px;
+
+}
+
+.bottom{
+    position:fixed;
+    margin-top: 600px;
+    color:white;
+    background-color:#210300a8;
+    width: 100%;
+    display: flexbox;
+    padding:1%;
+    text-align: center;
+    font-family: "Aleo", serif;
+    font-size: large;
+}
