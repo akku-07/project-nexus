@@ -10,14 +10,18 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+    background-image:url('img.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    font-weight: lighter;
 }
 
 .container {
-    background: white;
+    background: rgba(0, 0, 0, 0.532);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(231, 227, 227, 0.5);
     width: 90%;
     max-width: 500px;
 }
@@ -35,7 +39,7 @@ body {
 }
 
 .form-toggle button {
-    background: #4657da;
+    background: #0b4d79;
     font-family: 'Poppins', sans-serif;
     color: white;
     border-radius: 10px;
@@ -47,15 +51,15 @@ body {
 }
 
 .form-toggle button:hover {
-    background: #20b3ba;
+    background: #df8243;
     font-weight: bold;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(231, 227, 227, 0.5);
 }
 
 .form-toggle button.active {
     font-weight: bold;
-    background: #20b3ba;
-    border-bottom: 2px solid #4657da;
+    background: #df8243;
+    border-bottom: 2px solid #0b4d79;
 }
 
 form {
@@ -71,7 +75,7 @@ form {
 input, input:valid {
     width: 95%;
     padding: 10px;
-    border: 1px solid #20b3ba;
+    border: 1px solid #df8243;
     border-radius: 5px;
 }
 
@@ -81,19 +85,20 @@ input:invalid {
 
 button[type="submit"] {
     padding: 10px;
-    background: #4657da;
+    background: #0b4d79;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     margin-top: 15px;
+    width: 95%;
 }
 
 button[type="submit"]:hover {
     font-weight: bold;
-    background: #20b3ba;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: #df8243;
+    box-shadow: 0 0 20px rgba(231, 227, 227, 0.5);
 }
 
 #error-message {
@@ -103,5 +108,5 @@ button[type="submit"]:hover {
 }
 
 h2 i {
-    color: #4657da;
+    color: #0b4d79;
 }
