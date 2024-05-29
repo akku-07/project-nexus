@@ -1,6 +1,6 @@
 # Project Nexus
 
-Welcome to Project Nexus! This repository contains multiple projects that demonstrate various web development concepts, ranging from basic login and signup pages to more complex authentication systems for a restaurant website.
+Welcome to Project Nexus by Aakruti Kalia! This repository contains multiple projects that demonstrate various web development concepts, ranging from basic login and signup pages to more complex authentication systems for a restaurant website.
 
 ## Table of Contents
 - [Projects](#projects)
