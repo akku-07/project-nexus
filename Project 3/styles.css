@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: #030519;
+}
+
+#home{
+    /* background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: lightblue;
+    padding-bottom: 100px;
+}
+
+
+
+header {
+    background: #030519;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+#home h1 {
+    margin: 250px 0;
+    color:#030519;
+    font-size: 60px;
+    text-align: left;
+}
+
+#home h2{
+    color:#030519;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 2rem;
+    margin:
+}
+
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    background: lightblue;
+    color: #030519;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5761B2;
+}
+
+footer {
+    background: rgb(193, 228, 239);
+    color:#030519;
+    font-weight: 600;
+    padding: 5px 0;
+    width: 100%;
+    bottom: 0;
+
+}
+
+footer a {
+    color:#030519;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1FC5A8;
+}

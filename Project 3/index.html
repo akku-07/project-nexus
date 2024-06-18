@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techy Software</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products/Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>Welcome to Techy Software</h1>
+      <h2>Our Products</h2>
+      <div class="product-gallery">
+        <!-- Add your Google Photos integration here -->
+        <img src="https://via.placeholder.com/300" alt="Product Image 1" />
+        <img src="https://via.placeholder.com/300" alt="Product Image 2" />
+        <img src="https://via.placeholder.com/300" alt="Product Image 3" />
+      </div>
+    </section>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Techy Software is a leading provider of innovative software solutions.
+      </p>
+    </section>
+    <section id="products">
+      <h2>Products/Services</h2>
+      <p>We offer a wide range of products and services to meet your needs.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="feedback">
+      <h2>Feedback</h2>
+      <form id="feedback-form">
+        <label for="feedback-name">Name:</label>
+        <input type="text" id="feedback-name" name="name" required />
+        <label for="feedback-message">Feedback:</label>
+        <textarea id="feedback-message" name="message" required></textarea>
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+    <footer>
+      <p>Connect with us on social media!</p>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
