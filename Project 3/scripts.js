@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData(contactForm);
         const data = Object.fromEntries(formData.entries());
         try {
-            const response = await fetch('/api/contact', {
+            const response = await fetch('https://backend-code-beryl.vercel.app/api/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData(feedbackForm);
         const data = Object.fromEntries(formData.entries());
         try {
-            const response = await fetch('/api/feedback', {
+            const response = await fetch('https://backend-code-beryl.vercel.app/api/feedback', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
