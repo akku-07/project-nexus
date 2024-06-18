@@ -93,11 +93,11 @@ Open the index.html file in your browser to view and interact with the login and
 
 - Signup:
 
-  Open your browser and go to http://localhost:3000/signup to create a new account.
+  Open your browser and go to http://localhost:5000/signup to create a new account.
 
 - Login:
 
-  Open your browser and go to http://localhost:3000/login to log into your account. After logging in, you will see a personalized welcome message.
+  Open your browser and go to http://localhost:5000/ to log into your account. After logging in, you will see a personalized welcome message.
 
 ## File Structure
 
